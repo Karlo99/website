@@ -224,28 +224,51 @@ header.masthead {
 #OFF1{
   
   color: red;
+  display: inline-block;
+
 
 
 }
 #OFF2{
-  position: absolute;
+  
   z-index: 100;
   top: 260px;
   bottom: 0;
-  left: 326.8px;
+  left: 300px;
   color: white;
+  display: inline-block; 
+
+  -webkit-text-stroke: .5px white;
+   color: white;
+   text-shadow:
+       4px 0px 0 red,
+     0px 0px 0 #b3d9ff,  
+      0px 0px 0 #b3d9ff,
+      -4px 0px 0 #b3d9ff,
+       -1px -1px 0 #b3d9ff;
+    
+
+    /*-webkit-text-stroke: 1px white;*/
+   /*color: white;
+   text-shadow:
+       3px 3px 0 red,
+     1px 1px 0 red,  
+      1px 1px 0 red,
+      1px 1px 0 red,
+       3px 3px 0 red; */   
 
  
 }
 
 #OFF3{ 
-  position: absolute;
+  display: inline-block;
   z-index: 90;
   top: 260px;
   bottom: 0px;
   left: 0;
-  right: 15px;
+  right: 30px;
   color: #b3d9ff;
+  
 
 
 }
@@ -347,7 +370,8 @@ header.masthead {
 }
 
 iframe{
-  position: auto;
+  width: 100%;
+  
 }
 
 
